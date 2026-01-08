@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbf7ef;
+  --foreground: #1c1917;
+  --surface: #fffaf2;
+  --muted: rgba(120, 113, 108, 0.14);
+  --border: rgba(28, 25, 23, 0.16);
+  --brand: #6b2d2d;
+  --brand-foreground: #fffaf2;
+  --accent: #b48a3b;
+  --accent-foreground: #1c1917;
+}
+
+:root[data-theme="light"] {
+  --background: #fbf7ef;
+  --foreground: #1c1917;
+  --surface: #fffaf2;
+  --muted: rgba(120, 113, 108, 0.14);
+  --border: rgba(28, 25, 23, 0.16);
+  --brand: #6b2d2d;
+  --brand-foreground: #fffaf2;
+  --accent: #b48a3b;
+  --accent-foreground: #1c1917;
+}
+
+:root[data-theme="dark"] {
+  --background: #0b0a09;
+  --foreground: #f2ede4;
+  --surface: rgba(242, 237, 228, 0.04);
+  --muted: rgba(168, 162, 158, 0.18);
+  --border: rgba(242, 237, 228, 0.14);
+  --brand: #e7c07a;
+  --brand-foreground: #0b0a09;
+  --accent: #d28f8f;
+  --accent-foreground: #0b0a09;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-eb-garamond);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --background: #0b0a09;
+    --foreground: #f2ede4;
+    --surface: rgba(242, 237, 228, 0.04);
+    --muted: rgba(168, 162, 158, 0.18);
+    --border: rgba(242, 237, 228, 0.14);
+    --brand: #e7c07a;
+    --brand-foreground: #0b0a09;
+    --accent: #d28f8f;
+    --accent-foreground: #0b0a09;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-serif), ui-serif, Georgia, Cambria, "Times New Roman",
+    Times, serif;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--brand) 22%, transparent);
+}
+
+* {
+  border-color: var(--border);
+}
