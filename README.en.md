@@ -2,7 +2,7 @@
 
 This repository contains a collection of Next.js templates and elements using TypeScript, CSS, and Tailwind, designed to facilitate and accelerate modern website development.
 
-[Leer en Español](./README.md)
+[Español](./README.md)
 
 ## Repository Contents
 

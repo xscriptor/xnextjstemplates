@@ -2,7 +2,7 @@
 
 Este es un repositorio de colección de plantillas y elementos para Next.js en TypeScript con CSS y Tailwind, diseñado para facilitar y acelerar el desarrollo de sitios web modernos.
 
-[Read in English](./README.en.md)
+[English](./README.en.md)
 
 ## Contenido del Repositorio
 
