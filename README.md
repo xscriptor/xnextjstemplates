@@ -1,4 +1,4 @@
-<h1 align="center"> Xscriptor Next.js Templates Collection</h1>
+<h1 align="center">X Next.js Templates Collection</h1>
 
 Este es un repositorio de colección de plantillas y elementos para Next.js `Ready to clone` en TypeScript con CSS y Tailwind, diseñado para facilitar y acelerar el desarrollo de sitios web modernos.
 
@@ -8,13 +8,12 @@ Las instrucciones son simples: clona el repositorio, entra en el directorio de l
 
 ## Contenido:
 
-- **Business**: Plantillas para sitios corporativos y de negocios.
-  - [Ver documentación](./business/README.md)
+- **[Business](./business/README.md)**: Plantillas para sitios corporativos y de negocios.
 
-- **Editorial**: Plantillas enfocadas en contenido editorial, blogs, escritores y publicaciones.
-  - [Ver documentación](./editorial/README.md)
+- **[Editorial](./editorial/README.md)**: Plantillas enfocadas en contenido editorial, blogs, escritores y publicaciones.
 
-- **Music**: Plantilla para artistas, bandas y sitios relacionados con la música.
-  - [Ver documentación](./music/README.md)
+- **[Music](./music/README.md)**: Plantilla para artistas, bandas y sitios relacionados con la música.
+
+- **[IT](./it/README.md)**: Plantillas para desarrolladores y sitios IT.
 
 Cada carpeta contiene su propia documentación `README.md` con especificaciones individuales.
