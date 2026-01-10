@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  @apply bg-xos-bg-light text-xos-text-light dark:bg-xos-bg-dark dark:text-xos-text-dark transition-colors duration-500;
+}
+
+.glass-panel {
+  @apply bg-white/10 dark:bg-white/5 backdrop-blur-md border border-black/10 dark:border-white/10 rounded-xl shadow-xl;
+}
